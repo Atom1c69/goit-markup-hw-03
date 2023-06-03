@@ -30,7 +30,7 @@ ul {
 
 img {
     display: block;
-    width: 
+    width: 100%;
 }
 
 section {
@@ -117,7 +117,7 @@ section {
 .header-menu-link:hover,
 .header-menu-link:focus {
     color:var(--button-color);
-    border: 1px solid transparent;
+   
 }
 
 .header-adress-link {
@@ -371,7 +371,7 @@ section {
     list-style: none;
     cursor: pointer;
     padding: 12px 24px;
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--border-color);
     border-radius: 4px;
     border: 1px solid transparent;
 }
